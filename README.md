@@ -12,8 +12,6 @@ Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
 
 ## Content
 
-### Tools
-
 * [`DTM`](DTM): A Deep Learning Package for Tourism Demand Forecasting
 * ...
 

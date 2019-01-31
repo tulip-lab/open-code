@@ -1,45 +1,25 @@
 # DTM
 ---
-- A Package for Tourism Demand Forecasting using Deep Learning Model
-- You are free to use, change and distribute this package.
 
-Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
+| Field | Value |
+| --- | --- |
+| Title | DTM |
+| Type | Source Code |
+| Language | Python |
+| License |   |
+| Status | Research Code |
+| Update Frequency | NO |
+| Date Published | 2019-01-31  |
+| Date Updated |  2019-01-31 |
+| Portal | https://github.com/tulip-lab/open-code |
+| URL | https://github.com/tulip-lab/open-code/tree/master/DTM|
+| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
+| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
 
-Maintainer: [Xin Han](https://github.com/xhan97)
-
-
----
-
----
-###  Requirements
----
-* Python 3.6
-* Keras
-* Tensorflow
-
-
----
-### Preprocessing
----
-* Window-based input (window size is 12)
-
+This package (DTM) is the deep learning algorithm for tourism demand forecasting.
 
 ---
-### Running
----
-```
-edit Setting.py         % set paramaters
-python Preprocess.py    % data preprocess
-python Eval.py          % model evaluation
-
-```
----
-### Environment
----
-* OS: Unbuntu 18.04
-* CPU: Intel Xeon CPU E5-2620
-
-### Citations
+## Citations
 ---
 
 If you use it for a scientific publication, please include a reference to this paper. 
@@ -57,8 +37,46 @@ If you use it for a scientific publication, please include a reference to this p
     author = {Law, Rob and Li, Gang and Fong, Davis and Han, Xin},
     month = xxx,
     year = {2019},
-    keywords = {Big data analytics, Deep Learning, Search Query data, Tourism Demand Forecast},
+    keywords = {Big data analytics, Deep Learning, Search query data,Tourism Demand Forecast},
     pages = {XX-XX},
     }
 
-You can feel free to use the codes(for academic purpose only) at your own risk. For other purposes, please contact **A/Prof. Gang Li** (gangli AT tulip.org.au).
+The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
+
+* : [`Macau2018`](https://github.com/tulip-lab/open-data/tree/master/Macau2018) 
+
+
+---
+##  Requirements
+---
+
+* Python 3.6
+* Keras
+* Tensorflow
+
+
+---
+## Preprocessing
+---
+
+* Window-based input (window size is 12)
+
+
+---
+## Running
+---
+
+```
+edit Setting.py         % set paramaters
+python Preprocess.py    % data preprocess
+python Eval.py          % model evaluation
+
+```
+
+---
+## Environment
+---
+
+* OS: Unbuntu 18.04
+* CPU: Intel Xeon CPU E5-2620
+
