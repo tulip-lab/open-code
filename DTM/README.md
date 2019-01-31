@@ -73,10 +73,4 @@ python Eval.py          % model evaluation
 
 ```
 
----
-## Environment
----
-
-* OS: Unbuntu 18.04
-* CPU: Intel Xeon CPU E5-2620
 
