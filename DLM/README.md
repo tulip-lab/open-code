@@ -1,9 +1,9 @@
-# DTM
+# DLM
 ---
 
 | Field | Value |
 | --- | --- |
-| Title | DTM |
+| Title | DLM |
 | Type | Source Code |
 | Language | Python |
 | License |   |
@@ -12,11 +12,11 @@
 | Date Published | 2019-01-31  |
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/DTM|
+| URL | https://github.com/tulip-lab/open-code/tree/master/DLM|
 | Publisher |[TULIP Lab](http://www.tulip.org.au/) |
 | Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
 
-This package (DTM) is the deep learning algorithm for tourism demand forecasting.
+This package (DLM) is the deep learning algorithm for tourism demand forecasting.
 
 ---
 ## Citations
