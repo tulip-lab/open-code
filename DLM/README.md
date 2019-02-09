@@ -32,18 +32,18 @@ If you use it for a scientific publication, please include a reference to this p
     title = {Tourism Demand Forecasting: A Deep Learning Approach},
     volume = {XX},
     issn = {XXX-XX},
-    doi = {xxxxxx},
+    doi = {https://doi.org/10.1016/j.annals.2019.01.014},
     journal = {Annals of Tourism Research},
-    author = {Law, Rob and Li, Gang and Fong, Davis and Han, Xin},
+    author = {Law, Rob and Li, Gang and Fong, Davis Ka Chio and Han, Xin},
     month = xxx,
     year = {2019},
-    keywords = {Big data analytics, Deep Learning, Search query data,Tourism Demand Forecast},
+    keywords = {Big data analytics, Deep Learning, Search query data, Tourism Demand Forecast},
     pages = {XX-XX},
     }
 
 The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
 
-* [`Macau2018`](https://github.com/tulip-lab/open-data/tree/master/Macau2018) 
+* [`Macau2018`](https://github.com/tulip-lab/open-data/tree/master/Macau2018): Tourism Demand Forcasting Data
 
 
 ---
