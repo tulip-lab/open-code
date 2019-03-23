@@ -12,7 +12,7 @@ Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
 
 ## Content
 
-* [`DLM`](DLM): A Deep Learning Package for Tourism Demand Forecasting, proposed in [Tourism Demand Forecasting: A Deep Learning Approach](https://doi.org/10.1016/j.annals.2019.01.014) (Annals of Tourism Research, 2019)
+* [`DLM`](DLM): A Deep Learning Package for Tourism Demand Forecasting, proposed in [Tourism Demand Forecasting: A Deep Learning Approach](https://doi.org/10.1016/j.annals.2019.01.014) (Annals of Tourism Research, Vol 75, March 2019, Page 410-423)
 * ...
 
 
