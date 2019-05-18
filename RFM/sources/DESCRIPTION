@@ -1,0 +1,13 @@
+Package: Rfmtool
+Version: 1.0
+Date: 2012-08-01
+Title: Rfmtool
+Author: Huy Quan Vu, Gleb Beliakov and Gang Li.
+Maintainer: Quan Vu <quan@tulip.com.au>
+Depends: R (>= 2.9.2)
+Suggests:
+Description: Programming library of fuzzy measure which provides various tools for handling fuzzy measures, calculating Shapley value and Interaction index,  Cho-quet integrals, as well as fitting fuzzy measures to empirical data. 
+License: LGPL-2.1
+URL: http://www.tulip.org.au/resources/rfmtool
+BugReports: to gleb.beliakov@deakin.edu.au or quan@tulip.com.au
+Packaged: 2012-11-07 09:54:55 UTC; default

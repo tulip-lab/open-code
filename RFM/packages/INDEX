@@ -1,0 +1,10 @@
+Rfmtool                 Rfmtool package
+fm                      Rfmtool package
+fm.Choquet              Choquet function
+fm.ChoquetMob           ChoquetMob function
+fm.Interaction          Interaction Index computation function
+fm.Mobius               Mobius transform function
+fm.Shapley              Shapley value computation function
+fm.Zeta                 Zeta transform function
+fm.fitting              Fuzzy Measure Fitting function
+fm.test                 A Test function
