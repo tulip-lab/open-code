@@ -32,29 +32,25 @@ If you use it for a scientific publication, please include a reference to this p
 
 `BibTex` information:
 
- @Article{LRVLL11J03,
-  author    = {Law, Rob and Rong, Jia and Vu, Huy Quan and Li, Gang and Lee, Hee Andy},
-  title     = {{Identifying changes and trends in Hong Kong outbound tourism}},
-  journal   = {Tourism Management},
-  year      = {2011},
-  volume    = {32},
-  pages     = {1106--1114},
-  month     = oct,
-  issn      = {02615177},
-  doi       = {10.1016/j.tourman.2010.09.011},
-  file      = {:home/gangli/Documents/Mendeley Desktop/2010/Law et al./Tourism Management/2010 - Law et al. - Identifying changes and trends in Hong Kong outbound tourism.pdf:pdf},
-  publisher = {Elsevier Ltd},
-  url       = {http://linkinghub.elsevier.com/retrieve/pii/S0261517710002013},
-}
+    @Article{LRVLL11J03,
+      author    = {Law, Rob and Rong, Jia and Vu, Huy Quan and Li, Gang and Lee, Hee Andy},
+      title     = {{Identifying changes and trends in Hong Kong outbound tourism}},
+      journal   = {Tourism Management},
+      year      = {2011},
+      volume    = {32},
+      pages     = {1106--1114},
+      month     = oct,
+      issn      = {02615177},
+      doi       = {10.1016/j.tourman.2010.09.011},
+    }
 
-@Article{RVLL11J06,
-  author  = {Rong, Jia and Vu, Huy Quan and Law, Rob and Li, Gang},
-  title   = {{A behavioral analysis of web sharers and browsers in Hong Kong using targeted association rule mining}},
-  journal = {Tourism Management},
-  year    = {2011},
-  doi     = {10.1016/j.tourman.2011.08.006},
-}
-
+    @Article{RVLL11J06,
+      author  = {Rong, Jia and Vu, Huy Quan and Law, Rob and Li, Gang},
+      title   = {{A behavioral analysis of web sharers and browsers in Hong Kong using targeted association rule mining}},
+      journal = {Tourism Management},
+      year    = {2011},
+      doi     = {10.1016/j.tourman.2011.08.006},
+    }
 
 ---
 ##  Requirements

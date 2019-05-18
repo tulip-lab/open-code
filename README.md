@@ -16,6 +16,6 @@ Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
 * [`DLM`](DLM): A Deep Learning Package for Tourism Demand Forecasting, proposed in [Tourism Demand Forecasting: A Deep Learning Approach](https://doi.org/10.1016/j.annals.2019.01.014) (**Annals of Tourism Research**, Vol 75, March 2019, Page 410-423)
 * ...
 
-Identifying Changes And Trends In Hong Kong Outbound Tourism
-IDENTIFYING CHANGES AND TRENDS IN HONG KONG OUTBOUND TOURISM
+
+
 ---
