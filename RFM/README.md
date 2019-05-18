@@ -37,16 +37,16 @@ If you use it for a scientific publication, please include a reference to this p
 `BibTex` information:
 
 
-  @InBook{VBL13B01,
-    chapter   = {A Choquet Ingtegral Toolbox and its Application in Customer's Preference Analysis},
-    title     = {Data Mining Applications with R},
-    publisher = {Elsevier},
-    year      = {2013},
-    author    = {Vu, Huy Quan and Beliakov, Gleb and Li, Gang},
-    editor    = {Zhao, Yanchang and Cen, Yonghua},
-    owner     = {Quan},
-    timestamp = {2014.01.06},
-  }
+      @InBook{VBL13B01,
+        chapter   = {A Choquet Ingtegral Toolbox and its Application in Customer's Preference Analysis},
+        title     = {Data Mining Applications with R},
+        publisher = {Elsevier},
+        year      = {2013},
+        author    = {Vu, Huy Quan and Beliakov, Gleb and Li, Gang},
+        editor    = {Zhao, Yanchang and Cen, Yonghua},
+        owner     = {Quan},
+        timestamp = {2014.01.06},
+      }
 
 ---
 ##  Installation
