@@ -24,7 +24,7 @@ This package (DLM) is the deep learning algorithm for tourism demand forecasting
 
 If you use it for a scientific publication, please include a reference to this paper. 
 
-* Rob Law, Gang Li, Davis Fong, Xin Han (2019). Tourism Demand Forecasting: A Deep Learning Approach. Annals of Tourism Research, Vol 75, March 2019, Page 410-423
+* Rob Law, Gang Li, Davis Fong, Xin Han (2019). Tourism Demand Forecasting: A Deep Learning Approach. [**Annals of Tourism Research**](https://doi.org/10.1016/j.annals.2019.01.014), Vol 75, March 2019, Page 410-423
 
 `BibTex` information:
 
