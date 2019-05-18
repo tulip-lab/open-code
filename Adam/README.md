@@ -26,7 +26,7 @@ If you use it for a scientific publication, please include a reference to this p
 
 * Yongli Ren, Gang Li, Jun Zhang, Wanlei Zhou. [Lazy Collaborative Filtering for Datasets with Missing Values](http://dx.doi.org/10.1109/TSMCB.2012.2231411). **IEEE Transactions on Systems, Man, and Cybernetics, Part B: Cybernetics**, 2013, 43(6): 1822-1834.
   
-* Yongli Ren, Gang Li, Jun Zhang and Wanlei Zhou. [AdaM: adaptive-maximum imputation for neighborhood-based collaborative filtering](http://dx.doi.org/10.1145/2492517.2492565). 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013), Aug 25-28, 2013 in Niagara Falls, Canada. Full Paper.  
+* Yongli Ren, Gang Li, Jun Zhang and Wanlei Zhou. [AdaM: adaptive-maximum imputation for neighborhood-based collaborative filtering](http://dx.doi.org/10.1145/2492517.2492565). **2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013)**, Aug 25-28, 2013 in Niagara Falls, Canada. Full Paper.  
 
 `BibTex` information:
 

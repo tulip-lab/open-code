@@ -1,4 +1,4 @@
-# DLM
+# CTR
 ---
 
 | Field | Value |
@@ -26,9 +26,9 @@ The manual can be found here: [Manual](CTR-manual.pdf)
 
 If you use it for a scientific publication, please include a reference to this paper. 
 
-* Rob Law, Jia Rong, Huy Quan Vu, Gang Li, Andy Lee (2011). Identifying Changes And Trends In Hong Kong Outbound Tourism, Tourism Management, Volume 32, Issue 5, Pages 1106-1114, 2011. 
+* Rob Law, Jia Rong, Huy Quan Vu, Gang Li, Andy Lee (2011). [Identifying Changes And Trends In Hong Kong Outbound Tourism](https://doi.org/10.1016/j.tourman.2010.09.011), **Tourism Management**, Volume 32, Issue 5, Pages 1106-1114, 2011. 
 
-* Jia Rong, Huy Quan Vu, Rob Law, Gang Li (2011). A Behavioral Analysis of Web Sharers and Browsers in Hong Kong using Targeted Association Rule Mining, Tourism Management, 2011.
+* Jia Rong, Huy Quan Vu, Rob Law, Gang Li (2011). [A Behavioral Analysis of Web Sharers and Browsers in Hong Kong using Targeted Association Rule Mining](https://doi.org/10.1016/j.tourman.2011.08.006), **Tourism Management**, 2011.
 
 `BibTex` information:
 
