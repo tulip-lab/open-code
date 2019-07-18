@@ -4,12 +4,15 @@ from keras.layers import merge
 from keras.layers.core import *
 from keras.models import *
 
-from attention_utils import get_activations, get_data_recurrent
+from keras.layers import Dense
+from keras.layers import LSTM
+
 from keras import initializers
 
 
-def attention_block(inputs,TIME_STEPS,INPUT_DIM):
 
+def attention_block(inputs,TIME_STEPS,INPUT_DIM):
+  
     input_dim = int(inputs.shape[2])
     a = Permute((2, 1))(inputs)
     a = Dense(TIME_STEPS, activation='tanh',use_bias=True)(a)
@@ -22,7 +25,7 @@ def model_attention_applied_before_lstm(TIME_STEPS,INPUT_DIM,lstm_unit,drop_rate
  
     inputs = Input(shape=(TIME_STEPS, INPUT_DIM,))
     attention_mul = attention_block(inputs,TIME_STEPS,INPUT_DIM)
-    attention_mul =LSTM(lstm_units=lstm_units, return_sequences=False)(attention_mul)
+    attention_mul = LSTM(lstm_unit, return_sequences=False)(attention_mul)
     dropout = Dropout(drop_rate)(attention_mul)
     output = Dense(dense_unit, activation='relu')(attention_mul)
     output = Dense(1, activation='relu')(output)
@@ -30,8 +33,7 @@ def model_attention_applied_before_lstm(TIME_STEPS,INPUT_DIM,lstm_unit,drop_rate
     return model
   
   
-  
-def build_model(tranin_X,train_Y,epochs,lstm_unit,drop_rate,dense_unit,batch_size):
+def build_model(tranin_X,train_Y,lstm_unit,drop_rate,dense_unit,batch_size,epochs):
   
     outputs =  train_Y.reshape(train_Y.shape[0],1)
     TIME_STEPS = tranin_X.shape[1]
