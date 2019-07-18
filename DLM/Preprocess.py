@@ -7,7 +7,6 @@ from math import sqrt
 import pickle
 
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import mean_squared_error
 
 from minepy import MINE
 
