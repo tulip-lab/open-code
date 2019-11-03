@@ -22,6 +22,7 @@ def mean_absolute_percentage_error(y_true, y_pred):
 def walk_forward(train_X,train_Y,test_X, test_Y,grid_search,scaler):
   r,f,c = test_X.shape
   for x in grid_search:
+    
       history_x = np.array([x for x in train_X])
       history_y = np.array([y for y in train_Y])
       predictions = list()
@@ -39,8 +40,8 @@ def walk_forward(train_X,train_Y,test_X, test_Y,grid_search,scaler):
         obs_x = test_X[i]
         obs_y = test_Y[i]
         
-        np.append(history_x,obs_x)
-        np.append(history_y,obs_y)
+        history_x = np.append(history_x,[obs_x],axis=0)
+        history_y = np.append(history_y,obs_y)
               
       valuelist = evalue(predictions, groundtrue)
       valuelist['lstm_unit']=x[0]
@@ -59,7 +60,7 @@ def evalue(yhat,inv_y):
     DLM_mae = mean_absolute_error(inv_y,yhat)
     valuelist.update({'MAE':{'DLM':DLM_mae}})
     DLM_mape = mean_absolute_percentage_error(inv_y,yhat)
-    valuelist.update({'MAPE':{'DLM':DLM_mape,}})
+    valuelist.update({'MAPE':{'DLM':DLM_mape}})
     return pd.DataFrame(valuelist)
  
   
@@ -67,7 +68,7 @@ def inverscale(yhat,test_X,test_Y,scaler):
     
     feature = len(scaler.scale_)
     test_Y = np.array(test_Y)
-    test_X = test_X[1,0:feature]  #40
+    test_X = test_X[1,0:feature]  
     test_X = test_X.reshape(1,test_X.shape[0])
     
     if len(yhat.shape)==1:
@@ -102,9 +103,9 @@ if __name__ == '__main__':
       data = pickle.load(a)
     values = data.values
   
-    n_train = 68
+    n_train = 12
     train = values[:n_train,:]
-    test = values[n_train:,:]
+    test = values[n_train:n_train+12,:]
     test_X, test_Y = test[:,:-1],test[:,-1]
     train_X,train_Y = train[:,:-1],train[:,-1]
     
