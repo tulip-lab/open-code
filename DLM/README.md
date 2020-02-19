@@ -16,7 +16,10 @@
 | Publisher |[TULIP Lab](http://www.tulip.org.au/) |
 | Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
 
-This package (DLM) is the deep learning algorithm for tourism demand forecasting.
+This package (DLM) is the deep learning algorithm for tourism demand forecasting. Please be aware that:
+
+* The training of DLM needs extra efforts based on specific data set, and direct running of the provided code *DOES NOT* always generate the promised performance.
+* For the training of the model on the data set, please spend your own patient time and the code publisher will *NOT* provide assistance on this issue.
 
 ---
 ## Citations
