@@ -12,7 +12,7 @@
 | Date Published | 2020-02-26  |
 | Date Updated |  2020-02-26 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-data/tree/master/GP-DLM|
+| URL | https://github.com/tulip-lab/open-code/tree/master/GP-DLM|
 | Publisher |[TULIP Lab](http://www.tulip.org.au/) |
 | Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
 
