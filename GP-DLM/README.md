@@ -33,7 +33,7 @@ If you use it for a scientific publication, please include a reference to this p
 
 `BibTex` information:
 
-   @article{ZLML2020,
+    @article{ZLML2020,
     title = {Group Pooling For Deep Tourism Demand Forecasting},
     volume = {xx},
     doi = {xxxx},
@@ -44,6 +44,9 @@ If you use it for a scientific publication, please include a reference to this p
     keywords = {tourism demand forecasting, AI-based methodology, group-pooling method, deep-learning model, tourism demand similarity, Asia Pacific travel patterns},
     pages = {xxx},
     }
+
+
+---
 
 The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
 
