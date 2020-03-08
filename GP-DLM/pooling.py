@@ -6,7 +6,8 @@ import sklearn.preprocessing
 import numpy as np
 import configuration
 
-dataset1 = read_csv('./data/hk2011-2018-stl.csv')
+# Import data from your own path 
+dataset1 = read_csv('./data/HK-2018.csv')
 # manually specify column names
 dataset1.index.name = 'date'
 #dataset1 = dataset1[6:86]
@@ -32,8 +33,8 @@ for index in range(len(df_1) - 13):
 
 
 
-
-dataset2 = read_csv('./data/macau2011-2018-stl1.csv')
+# Import data from your own path 
+dataset2 = read_csv('./data/MO-2018.csv')
 dataset2.index.name = 'date'
 df_finalfeature1 = dataset2.drop(['date','arrival','seasonality','trend'], axis=1)
 df_finalfeature1.replace(np.nan, 0, inplace=True)

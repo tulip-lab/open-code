@@ -62,5 +62,13 @@ The related dataset for above paper can be found at [TULIP Lab Open-Data](https:
 * Tensorflow
 
 
+---
+##  Run the coder
+---
+
+* Setting up the pooling data by using Dynamic_time_warping.py and pooling.py
+* Feeding the pooled data into DLM by using DLM.py and configuration.py
+* Run the forecasting.py 
+
 
 
