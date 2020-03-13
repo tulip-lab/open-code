@@ -47,7 +47,7 @@ If you use it for a scientific publication, please include a reference to this p
 
 ---
 
-The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
+The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
 
 * [`HK-MO2018`](https://github.com/tulip-lab/open-data/tree/master/HK-MO2018)
 
