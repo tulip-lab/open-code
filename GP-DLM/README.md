@@ -45,8 +45,6 @@ If you use it for a scientific publication, please include a reference to this p
     keywords = {tourism demand forecasting, AI-based methodology, group-pooling method, deep-learning model, tourism demand similarity, Asia Pacific travel patterns}, 
     }
 
----
-
 The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
 
 * [`HK-MO2018`](https://github.com/tulip-lab/open-data/tree/master/HK-MO2018)
