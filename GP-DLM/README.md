@@ -24,7 +24,7 @@ This package (GP-DLM) is the group pooling deep learning algorithm for tourism d
 * For the training of the model on the data set, please spend your own patient time and the code publisher will *NOT* provide assistance on this issue.
 
 ---
-## Citations
+### Citations
 ---
 
 If you use it for a scientific publication, please include a reference to this paper.
@@ -51,7 +51,7 @@ The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open-
 
 
 ---
-##  Requirements
+###  Requirements
 ---
 
 * Python 3.6
@@ -60,7 +60,7 @@ The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open-
 
 
 ---
-##  Run the coder
+###  Run the coder
 ---
 
 * Setting up the pooling data by using Dynamic_time_warping.py and pooling.py
