@@ -22,7 +22,7 @@ This package (DLM) is the deep learning algorithm for tourism demand forecasting
 * For the training of the model on the data set, please spend your own patient time and the code publisher will *NOT* provide assistance on this issue.
 
 ---
-## Citations
+### Citations
 ---
 
 If you use it for a scientific publication, please include a reference to this paper. 
@@ -49,7 +49,7 @@ The related dataset for above paper can be found at [TULIP Lab Open-Data](https:
 
 
 ---
-##  Requirements
+###  Requirements
 ---
 
 * Python 3.6
@@ -58,7 +58,7 @@ The related dataset for above paper can be found at [TULIP Lab Open-Data](https:
 
 
 ---
-## Preprocessing
+### Preprocessing
 ---
 
 * Window-based input (window size is 12)
