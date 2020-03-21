@@ -45,7 +45,7 @@ If you use it for a scientific publication, please include a reference to this p
 
 The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
 
-* [`HongKong2012-2018`](https://github.com/tulip-lab/open-data/tree/master/HongKong2012-2018): Tourism Demand Forecasting Data for Hong Kong on 6 visitor markets from January 2012 to December 2018
+* [`HK2012-2018`](https://github.com/tulip-lab/open-data/tree/master/HK2012-2018): Tourism Demand Forecasting Data for Hong Kong on six visitor markets from January 2012 to December 2018
 
 
 ---
