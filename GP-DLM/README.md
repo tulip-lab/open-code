@@ -37,7 +37,7 @@ If you use it for a scientific publication, please include a reference to this p
     @article{ZLMLY2020,
     title = {Group Pooling For Deep Tourism Demand Forecasting},
     volume = {82},
-    doi = {https://doi.org/10.1016/j.annals.2020.102899},
+    doi = {10.1016/j.annals.2020.102899},
     journal = {Annals of Tourism Research},
     author = {Zhang, Yishuo and Li, Gang and Muskat, Birgit and Law, Rob and Yang, Yating},
     month = May,
