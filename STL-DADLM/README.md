@@ -34,11 +34,11 @@ If you use it for a scientific publication, please include a reference to this p
 
     @article{ZLML2020,
     title = {Tourism Demand Forecasting: A Decomposed Deep Learning Approach},
-    volume = {xx},
-    doi = {xxxx},
+    volume = {0},
+    doi = {10.1177/0047287520919522},
     journal = {Journal of Travel Research},
     author = {Zhang, Yishuo and Li, Gang and Muskat, Birgit and Law, Rob},
-    month = xx,
+    month = {06},
     year = {2020},
     keywords = {Tourism demand forecasting, tourism planning, AI-based forecasting, deep learning, decomposing method, over-fitting}, 
     }
