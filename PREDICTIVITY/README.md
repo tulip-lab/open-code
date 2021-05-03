@@ -37,10 +37,10 @@ If you use it for a scientific publication, please include a reference to this p
     volume = {x},
     doi = {xxxxxx},
     journal = {Annals of Tourism Research},
-    author = {Zhang, Yishuo and Li, Gang and Muskat, Birgit and Vu, HuyQuan and Law, Rob},
+    author = {Zhang, Yishuo and Li, Gang and Muskat, Birgit and Vu, Huy Quan and Law, Rob},
     month = {xxx},
     year = {2021},
-    keywords = {Tourism demand forecasting, Predictivity, data characteristics}, 
+    keywords = {Tourism demand forecasting, Predictivity, data characteristics, entropyt}, 
     }
 
 ---
