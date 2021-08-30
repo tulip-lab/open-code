@@ -31,7 +31,6 @@ If you use it for a scientific publication, please include a reference to this p
 
 
 `BibTex` information:
-
     @article{ZLML2021,
     title = {Predictivity of tourism demand data},
 	journal = {Annals of Tourism Research},
