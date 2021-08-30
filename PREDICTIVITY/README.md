@@ -31,16 +31,17 @@ If you use it for a scientific publication, please include a reference to this p
 
 
 `BibTex` information:
-    @article{ZLML2021,
-    title = {Predictivity of tourism demand data},
-	journal = {Annals of Tourism Research},
-	volume = {89},
-    pages = {103234},
-	year = {2021},
-	issn = {0160-7383},
-	doi = {https://doi.org/10.1016/j.annals.2021.103234},
-	url = {https://www.sciencedirect.com/science/article/pii/S0160738321001122},
-	author = {Yishuo Zhang and Gang Li and Birgit Muskat and Huy Quan Vu and Rob Law},
+
+    @article{ZLML2021, <br />
+    title = {Predictivity of tourism demand data}, <br />
+	journal = {Annals of Tourism Research}, <br />
+	volume = {89}, <br />
+    pages = {103234}, <br />
+	year = {2021}, <br />
+	issn = {0160-7383}, <br />
+	doi = {https://doi.org/10.1016/j.annals.2021.103234}, <br />
+	url = {https://www.sciencedirect.com/science/article/pii/S0160738321001122}, <br />
+	author = {Yishuo Zhang and Gang Li and Birgit Muskat and Huy Quan Vu and Rob Law}, <br />
 	keywords = {Data characteristics, Entropy, Predictivity, Tourism demand forecasting}   
     }
 
