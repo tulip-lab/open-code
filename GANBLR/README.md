@@ -47,7 +47,9 @@ If you use it for a scientific publication, please include a reference to this p
 ---
 
 * Python 3
-
+* PGMPY
+* Pyitlib
+* Data must be discretized before adding to input
 ---
 ### License
 ---
