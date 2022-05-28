@@ -25,17 +25,18 @@
 
 If you use it for a scientific publication, please include a reference to this paper.
 
-* Xin Han, Ye Zhu, Kai Ming Ting, De-Chuan Zhan and Gang Li. *Streaming Hierarchical Clustering based on Point-set Kernel.* In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22). 2022.
+* Xin Han, Ye Zhu, Kai Ming Ting, De-Chuan Zhan and Gang Li. *Streaming Hierarchical Clustering based on Point-Set Kernel.* In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22). 2022. https://doi.org/10.1145/3534678.3539323
   
 `BibTex` information:
 
 ```bibtex
 @inproceedings{HZTZL22STREAMING,
   author = {Han, Xin and Zhu, Ye and Ting, Kai Ming and Zhan De-Chuan and Li, Gang},
-  title = {Streaming Hierarchical Clustering based on Point-set Kernel},
+  title = {Streaming Hierarchical Clustering based on Point-Set Kernel},
   publisher = {Association for Computing Machinery},
   booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining},
   series = {KDD '22}
+  year={2020}
 }
 ```
 
