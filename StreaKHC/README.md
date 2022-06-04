@@ -16,6 +16,8 @@
 | URL | https://github.com/tulip-lab/open-code/tree/master/StreaKHC|
 | Publisher |[TULIP Lab](http://www.tulip.org.au/) |
 | Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| KDD Version| https://doi.org/10.1145/3534678.3539323
+| Preprint Version | https://doi.org/10.21203/rs.3.rs-1711503/v1
 
 **StreaKHC**  is a novel incremental hierarchical clustering algorithm for efficiently mining massive streaming data. It uses a scalable point-set kernel to measurethe similarity between an existing cluster in the cluster tree and a new point in a stream. It also has an efficient hierarchical structure updating mechanism to continuously maintain a high-quality cluster tree in real-time. Technical details and analysis of the algorithm can be found in the paper.
 
