@@ -24,5 +24,6 @@ Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
 * [`STL-DADLM`](STL-DADLM): A Deep Learning Package for STL Decomposition Tourism Demand Forecasting, proposed in [Tourism Demand Forecasting: A Decomposed Deep Learning Approach](https://doi.org/10.1177/0047287520919522 ). **Journal of Travel Research**, 2020
 * [`IK-AHC`](IK-AHC): The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms in [The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms](https://arxiv.org/pdf/2010.05473.pdf), <i>arXiv e-prints</i>, 2020.
 * [`GANBLR`](GANBLR): The novel tabular data generation algorithm in [GANBLR: A Tabular Data Generation Model](https://ieeexplore.ieee.org/abstract/document/9679177), <i>ICDM 2021 IEEE</i>, 2021.
+* [`StreaKHC`](StreaKHC): Streaming Hierarchical Clustering based on Point-set Kernel. Streaming Hierarchical Clustering based on Point-set Kernel. **In The 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22)**. 2022.
 
 ---
