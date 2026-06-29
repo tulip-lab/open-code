@@ -1,12 +1,12 @@
-# Human Review
+# Curation Notes
 
-The following licence, citation, provenance, and attribution notes reflect the current owner confirmation and remaining follow-up items. No code logic or data values were changed for this documentation update.
+The following licence, citation, provenance, and attribution notes reflect the current curator confirmation and remaining follow-up items. No code logic or data values were changed for this documentation update.
 
 ## Blocking before public release
 
-- None identified for this documentation-only standardisation pass.
+- None identified for the current documentation review.
 
-## Requires owner confirmation
+## Requires curator confirmation
 
 - `CTR/CTR-manual.pdf` and `CTR/code/sample.xlsx`: confirm publisher, author, redistribution, and sample-data terms if these non-code resources are reused outside this repository.
 - `DLM/preprocess/reframed.pk` and `DLM/preprocess/scaler.pk`: confirm provenance and licence if these preprocessing artifacts are reused outside this repository.
@@ -22,10 +22,10 @@ The following licence, citation, provenance, and attribution notes reflect the c
 ## Optional future enhancement
 
 - Add a repository-level DOI, release version, complete repository-level author list, or `CITATION.cff` if desired.
-- Add project-level DOI or BibTeX metadata only when confirmed by the relevant project owner.
+- Add project-level DOI or BibTeX metadata only when confirmed by the relevant project maintainer.
 - Add complete TOPOGRAPH DOI or BibTeX metadata when confirmed.
 
-## Resolved / owner-confirmed
+## Resolved / curator-confirmed
 
 - The previous root GPL text was intentionally replaced with the MIT License as the root default code licence.
 - Source code is licensed under MIT unless otherwise stated. Project-level licence files, file-level notices, and third-party notices take precedence where present.
