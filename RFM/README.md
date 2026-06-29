@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # RFM
 ---
 
@@ -6,13 +10,13 @@
 | Title | RFM |
 | Type | Source Code |
 | Language | R and C/C++ |
-| License |   |
+| License | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2013-01-31  |
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/RFM|
+| URL | https://github.com/tulip-lab/open-code/tree/main/RFM|
 | Publisher |[TULIP Lab](http://www.tulip.academy/) |
 | Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
@@ -27,14 +31,14 @@ There are two distribution files for this package:
 
 
 ---
-## Citations
+## Citation
 ---
 
 If you use it for a scientific publication, please include a reference to this paper. 
 
 * Huy Quan Vu, Gleb Beliakov and Gang Li. [A Choquet Integral Toolbox and Its Application in Customer Preference Analysis](http://books.google.com.au/books?id=nYpqAAAAQBAJ&pg=PA247&lpg=PA247&dq=A+Choquet+Integral+Toolbox+and+Its+Application+in+Customer+Preference+Analysis&source=bl&ots=wK84Bsn2D9&sig=sr_xiaV1bdYkObsKy2EdrK9yH4M&hl=en&sa=X&ei=6obWUumMMsjdkgXN9IDYDA&ved=0CD4Q6AEwAg#v=onepage&q=A%20Choquet%20Integral%20Toolbox%20and%20Its%20Application%20in%20Customer%20Preference%20Analysis&f=false).  in **Data Mining Application With R**. Elsevier, 2013 
 
-`BibTex` information:
+`BibTeX` information:
 
 
       @InBook{VBL13B01,

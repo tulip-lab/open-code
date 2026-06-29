@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # Adam
 ---
 
@@ -6,20 +10,20 @@
 | Title | Adam |
 | Type | Source Code |
 | Language | Matlab |
-| License |   |
+| License | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2013-01-31  |
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/Adam|
+| URL | https://github.com/tulip-lab/open-code/tree/main/Adam|
 | Publisher |[TULIP Lab](http://www.tulip.academy/) |
 | Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 This package (Adam) implemented the algorithm to impute the missing data set for collaborative filtering.
 
 ---
-## Citations
+## Citation
 ---
 
 If you use it for a scientific publication, please include a reference to this paper. 
@@ -28,7 +32,7 @@ If you use it for a scientific publication, please include a reference to this p
   
 * Yongli Ren, Gang Li, Jun Zhang and Wanlei Zhou. [AdaM: adaptive-maximum imputation for neighborhood-based collaborative filtering](http://dx.doi.org/10.1145/2492517.2492565). **2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013)**, Aug 25-28, 2013 in Niagara Falls, Canada. Full Paper.  
 
-`BibTex` information:
+`BibTeX` information:
 
       @Article{RLZZ13J09,
         author    = {Ren, Yongli and Li, Gang and Zhang, Jun and Zhou, Wanlei},

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # GANBLR
 ---
 
@@ -12,7 +16,7 @@
 | Date Published | 2022-04-30  |
 | Date Updated |  2022-04-30 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/GANBLR|
+| URL | https://github.com/tulip-lab/open-code/tree/main/GANBLR|
 | Publisher |[TULIP Lab](http://www.tulip.academy/) |
 | Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
@@ -20,14 +24,14 @@
 GANBLR is a novel tabular data generation algorithm. It uses the higher order discriminative Bayesian Network and also the neural network to generate the synthetic tabular data.
 
 ---
-### Citations
+## Citation
 ---
 
 If you use it for a scientific publication, please include a reference to this paper.
 
 * Yishuo Zhang, Nayyar Zaidi, Jiahui Zhou, and Gang Li, [GANBLR: A Tabular Data Generation Model](https://ieeexplore.ieee.org/abstract/document/9679177), <i>IEEE</i>, 2021.
 
-`BibTex` information:
+`BibTeX` information:
 
 ```bibtex
 @inproceedings{zhang2021ganblr,

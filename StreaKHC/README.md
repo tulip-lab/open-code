@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # StreaKHC
 
 ---
@@ -13,21 +17,21 @@
 | Date Published | 2022-05-20  |
 | Date Updated |  2022-05-20 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/StreaKHC|
+| URL | https://github.com/tulip-lab/open-code/tree/main/StreaKHC|
 | Publisher |[TULIP Lab](http://www.tulip.academy/) |
 | Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 **StreaKHC**  is a novel incremental hierarchical clustering algorithm for efficiently mining massive streaming data. It uses a scalable point-set kernel to measurethe similarity between an existing cluster in the cluster tree and a new point in a stream. It also has an efficient hierarchical structure updating mechanism to continuously maintain a high-quality cluster tree in real-time. Technical details and analysis of the algorithm can be found in the paper.
 
 ---
-### Citations
+## Citation
 ---
 
 If you use it for a scientific publication, please include a reference to this paper.
 
 * Xin Han, Ye Zhu, Kai Ming Ting, De-Chuan Zhan and Gang Li. *Streaming Hierarchical Clustering based on Point-Set Kernel.* In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22). 2022. https://doi.org/10.1145/3534678.3539323
-  
-`BibTex` information:
+
+`BibTeX` information:
 
 ```bibtex
 @inproceedings{HZTZL22STREAMING,
@@ -35,8 +39,8 @@ If you use it for a scientific publication, please include a reference to this p
   title = {Streaming Hierarchical Clustering based on Point-Set Kernel},
   publisher = {Association for Computing Machinery},
   booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining},
-  series = {KDD '22}
-  year={2020}
+  series = {KDD '22},
+  year = {2022}
 }
 ```
 

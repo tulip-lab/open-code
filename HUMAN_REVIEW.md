@@ -7,6 +7,7 @@ The following licence, citation, provenance, and attribution notes reflect the c
 - Resolved by owner confirmation: the previous root `LICENSE` file contained the GNU General Public License v3.0 text. It has been intentionally replaced with the MIT License as the root default code licence.
 - Source code is licensed under MIT unless otherwise stated. Project-level licence files, subproject README licence notices, and third-party notices take precedence for the relevant subproject or file.
 - Existing BSD notices must be preserved where present, including notices in or for `IK-AHC`, `GANBLR`, and `StreaKHC`.
+- Requires owner confirmation: `GANBLR` and `StreaKHC` README files state "BSD license", but no separate licence file was found for those subprojects during this audit. Preserve the notices until the exact BSD variant is confirmed.
 - Documentation and citation metadata are licensed under CC BY 4.0 unless otherwise stated.
 
 ## Citation metadata
@@ -30,6 +31,11 @@ The following licence, citation, provenance, and attribution notes reflect the c
 - The source README references external data resources for Synthetic Data, Knot, and IPC. These external resources were not copied into open-code and remain subject to their own source terms.
 - No local datasets, pretrained model weights, model checkpoints, or large binary artifacts were present in the imported source repository.
 - The source repository did not include requirements or environment files. Dependency licence review can be handled later if this subproject is packaged or prepared for a formal release.
+
+## Branch naming
+
+- No local or remote `master` branch was found during this audit.
+- Requires repository-admin confirmation: `origin/HEAD` for `open-code` currently points to `origin/develop`, while the confirmed default branch name decision is `main`. Do not delete or rename branches automatically. Recommended migration procedure: create/push `main` if needed, set the GitHub default branch to `main`, update branch protection rules, then retire old default references only after owner confirmation.
 
 ## Papers and external resources
 

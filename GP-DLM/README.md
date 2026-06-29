@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # `GP-DLM`
 ---
 
@@ -6,13 +10,13 @@
 | Title | GP-DLM |
 | Type | Source Code |
 | Language | Python |
-| License |   |
+| License | MIT License unless otherwise stated |
 | Data Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2020-02-26  |
 | Date Updated |  2020-02-26 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/GP-DLM|
+| URL | https://github.com/tulip-lab/open-code/tree/main/GP-DLM|
 | Publisher |[TULIP Lab](http://www.tulip.academy/) |
 | Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
@@ -24,7 +28,7 @@ This package (GP-DLM) is the group pooling deep learning algorithm for tourism d
 * For the training of the model on the data set, please spend your own patient time and the code publisher will *NOT* provide assistance on this issue.
 
 ---
-### Citations
+## Citation
 ---
 
 If you use it for a scientific publication, please include a reference to this paper.
@@ -32,7 +36,7 @@ If you use it for a scientific publication, please include a reference to this p
 * Yishuo Zhang, Gang Li, Birgit Muskat, Rob Law and Yating Yang(2020). [Group Pooling For Deep Tourism Demand Forecasting](https://doi.org/10.1016/j.annals.2020.102899). **Annals of Tourism Research**, Vol 82, May 2020
 
 
-`BibTex` information:
+`BibTeX` information:
 
     @article{ZLMLY2020,
     title = {Group Pooling For Deep Tourism Demand Forecasting},
@@ -40,14 +44,14 @@ If you use it for a scientific publication, please include a reference to this p
     doi = {10.1016/j.annals.2020.102899},
     journal = {Annals of Tourism Research},
     author = {Zhang, Yishuo and Li, Gang and Muskat, Birgit and Law, Rob and Yang, Yating},
-    month = May,
+    month = may,
     year = {2020},
     keywords = {tourism demand forecasting, AI-based methodology, group-pooling method, deep-learning model, tourism demand similarity, Asia Pacific travel patterns}, 
     }
 
 The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
 
-* [`HK-MO2018`](https://github.com/tulip-lab/open-data/tree/master/HK-MO2018)
+* [`HK-MO2018`](https://github.com/tulip-lab/open-data/tree/main/HK-MO2018)
 
 
 ---
@@ -66,5 +70,4 @@ The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open 
 * Setting up the pooling data by using Dynamic_time_warping.py and pooling.py
 * Feeding the pooled data into DLM by using DLM.py and configuration.py
 * Run the forecasting.py 
-
 

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # CTR
 ---
 
@@ -6,13 +10,13 @@
 | Title | CTR |
 | Type | Source Code |
 | Language | Matlab |
-| License |   |
+| License | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2011-01-31  |
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/master/CTR|
+| URL | https://github.com/tulip-lab/open-code/tree/main/CTR|
 | Publisher |[TULIP Lab](http://www.tulip.academy/) |
 | Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
@@ -21,7 +25,7 @@ This package (CTR) implemented the algorithm to generate targeted positive/negat
 The manual can be found here: [Manual](CTR-manual.pdf)
 
 ---
-## Citations
+## Citation
 ---
 
 If you use it for a scientific publication, please include a reference to this paper. 
@@ -30,7 +34,7 @@ If you use it for a scientific publication, please include a reference to this p
 
 * Jia Rong, Huy Quan Vu, Rob Law, Gang Li (2011). [A Behavioral Analysis of Web Sharers and Browsers in Hong Kong using Targeted Association Rule Mining](https://doi.org/10.1016/j.tourman.2011.08.006), **Tourism Management**, 2011.
 
-`BibTex` information:
+`BibTeX` information:
 
     @Article{LRVLL11J03,
       author    = {Law, Rob and Rong, Jia and Vu, Huy Quan and Li, Gang and Lee, Hee Andy},
