@@ -23,6 +23,14 @@ The following licence, citation, provenance, and attribution notes reflect the c
 - `RFM` includes sample data, package archives, compiled binaries, and third-party-derived components. Future review: confirm the licences and attribution requirements for `fmtools`, `lpSolve`, sample data, and packaged binaries if intended for public reuse.
 - `StreaKHC/data/raw` and `StreaKHC/data/runned` include benchmark/sample datasets. Future review: confirm dataset source, provenance, and redistribution terms if intended for public reuse.
 
+## topograph import
+
+- `topograph` was imported from https://github.com/tulip-lab/topograph into `topograph/`. The source MIT `LICENSE`, README, notebook, and source files were preserved.
+- The source README includes a TOPOGRAPH paper citation. No DOI, BibTeX entry, or separate citation file was present at import time; complete citation metadata can be added later if needed.
+- The source README references external data resources for Synthetic Data, Knot, and IPC. These external resources were not copied into open-code and remain subject to their own source terms.
+- No local datasets, pretrained model weights, model checkpoints, or large binary artifacts were present in the imported source repository.
+- The source repository did not include requirements or environment files. Dependency licence review can be handled later if this subproject is packaged or prepared for a formal release.
+
 ## Papers and external resources
 
 - Published papers, arXiv preprints, publisher PDFs, external datasets, pretrained model weights, third-party checkpoints, and external resources are not relicensed by this repository. Preserve file-level or third-party notices and confirm any exception before redistribution.
