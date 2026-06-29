@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
+</p>
+
 # TOPOGRAPH
 
 Accelerated PH algorithm for TDA
@@ -31,7 +35,7 @@ Please refer to the [`demo.ipynb`](./demo.ipynb) notebook for detailed usage exa
 
 
 
-## Citations
+## Citation
 
 If you use it for a scientific publication, please include a reference to this paper.
 

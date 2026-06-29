@@ -1,8 +1,8 @@
+# TULIP Lab Open Code
+
 <p align="center">
   <img src="assets/tulip-wordmark.png" alt="TULIP Lab" width="900">
 </p>
-
-# TULIP Lab Open Code Repository
 
 The TULIP Lab Open Code Repository collects lab-released research software, reusable scripts, notebooks, and examples. It is paired with the TULIP Lab Open Data Repository, which hosts public datasets and dataset documentation.
 
@@ -15,6 +15,10 @@ Prepared by [TULIP Lab](http://www.tulip.academy), Australia
 - 2021 maintainers: [Chris Zhang](https://github.com/chriszhangpodo)
 - 2020 maintainers: [Chris Zhang](https://github.com/chriszhangpodo)
 - 2019 maintainers: [Xin Han](https://github.com/xhan97)
+
+## Repository scope
+
+This repository is for research software, examples, notebooks, and code documentation released by TULIP Lab. It may reference datasets, model artifacts, papers, or third-party resources, but those materials are governed by their own licence and provenance notes.
 
 ## Included projects
 
@@ -56,3 +60,7 @@ Source code is licensed under MIT unless otherwise stated. Project-level licence
 Documentation, README text, tutorial notes, and citation metadata are released under Creative Commons Attribution 4.0 International (CC BY 4.0) unless otherwise stated.
 
 Datasets, model weights, third-party resources, papers, binaries, and checkpoints are governed by their own licences and are not automatically covered by this repository licence.
+
+## Human review / known documentation issues
+
+Known follow-up items are tracked in [HUMAN_REVIEW.md](HUMAN_REVIEW.md). Documentation audit details are recorded in [DOCS_AUDIT.md](DOCS_AUDIT.md).
