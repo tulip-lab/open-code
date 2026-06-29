@@ -13,8 +13,8 @@
 | Date Updated |  2022-04-30 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/GANBLR|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 
 GANBLR is a novel tabular data generation algorithm. It uses the higher order discriminative Bayesian Network and also the neural network to generate the synthetic tabular data.

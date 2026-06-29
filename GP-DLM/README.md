@@ -13,8 +13,8 @@
 | Date Updated |  2020-02-26 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/GP-DLM|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 This package (GP-DLM) is the group pooling deep learning algorithm for tourism demand forecasting. Please be aware that:
 
@@ -45,7 +45,7 @@ If you use it for a scientific publication, please include a reference to this p
     keywords = {tourism demand forecasting, AI-based methodology, group-pooling method, deep-learning model, tourism demand similarity, Asia Pacific travel patterns}, 
     }
 
-The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
+The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
 
 * [`HK-MO2018`](https://github.com/tulip-lab/open-data/tree/master/HK-MO2018)
 
@@ -66,6 +66,5 @@ The related dataset `HK-MO2018` for above paper can be found at [TULIP Lab Open-
 * Setting up the pooling data by using Dynamic_time_warping.py and pooling.py
 * Feeding the pooled data into DLM by using DLM.py and configuration.py
 * Run the forecasting.py 
-
 
 

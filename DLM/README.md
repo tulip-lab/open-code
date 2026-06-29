@@ -13,8 +13,8 @@
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/DLM|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 This package (DLM) is the deep learning algorithm for tourism demand forecasting. Please be aware that:
 
@@ -43,7 +43,7 @@ If you use it for a scientific publication, please include a reference to this p
     pages = {410-423},
     }
 
-The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
+The related dataset for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
 
 * [`Macau2018`](https://github.com/tulip-lab/open-data/tree/master/Macau2018): Tourism Demand Forcasting Data for Macau from January 2011 to August 2018
 
@@ -74,5 +74,4 @@ python Preprocess.py    % data preprocess
 python Eval.py          % model evaluation
 
 ```
-
 

@@ -1,11 +1,12 @@
-# TULIP Lab Open Code  
+# TULIP Lab Open Code Repository
 
 ---
-- Open code for research purpose, you are free to use, change and distribute this package with the `README.md` information unchanged.
-- Point of Contact: [A/Prof. Gang Li](https://github.com/tuliplab) 
+- Open code for research purposes. Please follow the licence and citation notes below and preserve required attribution and licence notices.
+- Point of Contact: [Prof. Gang Li](https://github.com/tuliplab) 
 
-Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
+Prepared by [TULIP Lab](http://www.tulip.academy), Australia
 
+- 2026 maintainers: [Zonghao Chen](https://github.com/xhan97)
 - 2022 maintainers: [Xin Han](https://github.com/xhan97)
 - 2021 maintainers: [Chris Zhang](https://github.com/chriszhangpodo) 
 - 2020 maintainers: [Chris Zhang](https://github.com/chriszhangpodo) 
@@ -27,3 +28,32 @@ Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
 * [`StreaKHC`](StreaKHC): Streaming Hierarchical Clustering based on Point-set Kernel. Streaming Hierarchical Clustering based on Point-set Kernel. **In The 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22)**. 2022.
 
 ---
+
+## Imported projects
+
+| Project | Path | Description | Original repository |
+|---|---|---|---|
+| topograph | `topograph/` | TULIP Lab TOPOGRAPH project. | https://github.com/tulip-lab/topograph |
+
+## Data
+
+Datasets used by examples or experiments may be hosted in the TULIP Lab Open Data Repository:
+https://github.com/tulip-lab/open-data
+
+Datasets are licensed separately. Please check the dataset-level licence, attribution, and provenance notes in the open-data repository before use.
+
+## Citation
+
+If you use a specific project in this repository, please cite the associated paper listed above or in that project's README.
+
+For repository-level citation:
+
+TULIP Lab. TULIP Lab Open Code Repository. https://github.com/tulip-lab/open-code.
+
+A repository-level DOI, release version, complete author list, or `CITATION.cff` may be added later as an optional future enhancement.
+
+## Licence
+
+Source code is licensed under MIT unless otherwise stated. Project-level licence files or third-party notices take precedence where present.
+Documentation, README text, tutorial notes, and citation metadata are released under Creative Commons Attribution 4.0 International (CC BY 4.0) unless otherwise stated.
+Datasets, models, binaries, checkpoints, papers, and external resources are governed by their own licences and are not automatically covered by this repository licence.
