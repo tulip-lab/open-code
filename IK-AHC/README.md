@@ -40,7 +40,7 @@ If you use it for a scientific publication, please include a reference to this p
 }
 ```
 
-<!-- The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
+<!-- The related dataset for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
 
 * [`IK-AHC2022`](https://github.com/tulip-lab/open-data/tree/master/Macau2018): Tourism Demand Forcasting Data for Macau from January 2011 to August 2018 -->
 

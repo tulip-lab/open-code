@@ -1,4 +1,4 @@
-# TULIP Lab Open Code  
+# TULIP Lab Open Code Repository
 
 ---
 - Open code for research purpose, you are free to use, change and distribute this package with the `README.md` information unchanged.
@@ -27,3 +27,26 @@ Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
 * [`StreaKHC`](StreaKHC): Streaming Hierarchical Clustering based on Point-set Kernel. Streaming Hierarchical Clustering based on Point-set Kernel. **In The 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22)**. 2022.
 
 ---
+
+## Data
+
+Datasets used by examples or experiments may be hosted in the TULIP Lab Open Data Repository:
+https://github.com/tulip-lab/open-data
+
+Datasets are licensed separately. Please check the dataset-level licence, attribution, and provenance notes in the open-data repository before use.
+
+## Citation
+
+If you use a specific project in this repository, please cite the associated paper listed above or in that project's README.
+
+For repository-level citation:
+
+TULIP Lab. TULIP Lab Open Code Repository. https://github.com/tulip-lab/open-code.
+
+Exact repository-level author, DOI, and release metadata are listed for human review in [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
+
+## Licence
+
+Source code in this repository is released under the MIT License unless otherwise stated.
+Documentation, README text, tutorial notes, and citation metadata are released under Creative Commons Attribution 4.0 International (CC BY 4.0) unless otherwise stated.
+Datasets, pretrained model weights, third-party checkpoints, external resources, and published papers are subject to their own licences and are not automatically covered by this repository licence.

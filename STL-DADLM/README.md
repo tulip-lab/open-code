@@ -43,7 +43,7 @@ If you use it for a scientific publication, please include a reference to this p
     keywords = {Tourism demand forecasting, tourism planning, AI-based forecasting, deep learning, decomposing method, over-fitting}, 
     }
 
-The related dataset for above paper can be found at [TULIP Lab Open-Data](https://github.com/tulip-lab/open-data):
+The related dataset for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
 
 * [`HK2012-2018`](https://github.com/tulip-lab/open-data/tree/master/HK2012-2018): Tourism Demand Forecasting Data for Hong Kong on six visitor markets from January 2012 to December 2018
 
@@ -55,7 +55,6 @@ The related dataset for above paper can be found at [TULIP Lab Open-Data](https:
 * Python 3.6
 * Keras
 * Tensorflow
-
 
 
 
