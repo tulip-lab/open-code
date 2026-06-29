@@ -1,7 +1,7 @@
 # TULIP Lab Open Code Repository
 
 ---
-- Open code for research purpose, you are free to use, change and distribute this package with the `README.md` information unchanged.
+- Open code for research purposes. Please follow the licence and citation notes below and preserve required attribution and licence notices.
 - Point of Contact: [A/Prof. Gang Li](https://github.com/tuliplab) 
 
 Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
@@ -43,10 +43,10 @@ For repository-level citation:
 
 TULIP Lab. TULIP Lab Open Code Repository. https://github.com/tulip-lab/open-code.
 
-Exact repository-level author, DOI, and release metadata are listed for human review in [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
+A repository-level DOI, release version, complete author list, or `CITATION.cff` may be added later as an optional future enhancement.
 
 ## Licence
 
-Source code in this repository is released under the MIT License unless otherwise stated.
+Source code is licensed under MIT unless otherwise stated. Project-level licence files or third-party notices take precedence where present.
 Documentation, README text, tutorial notes, and citation metadata are released under Creative Commons Attribution 4.0 International (CC BY 4.0) unless otherwise stated.
-Datasets, pretrained model weights, third-party checkpoints, external resources, and published papers are subject to their own licences and are not automatically covered by this repository licence.
+Datasets, models, binaries, checkpoints, papers, and external resources are governed by their own licences and are not automatically covered by this repository licence.
