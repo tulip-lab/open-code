@@ -6,7 +6,7 @@ Audit date: 2026-06-29
 
 | Area | Files |
 | --- | --- |
-| Root documentation | `README.md`, `CITATION.md`, `LICENSE`, `LICENSE-DOCS.md`, `HUMAN_REVIEW.md` |
+| Root documentation | `README.md`, `CITATION.md`, `LICENSE`, `LICENSE-DOCS.md`, `CURATION_NOTES.md` |
 | Major project READMEs | `Adam/README.md`, `CTR/README.md`, `DLM/README.md`, `GANBLR/README.md`, `GP-DLM/README.md`, `IK-AHC/README.md`, `PREDICTIVITY/README.md`, `RFM/README.md`, `STL-DADLM/README.md`, `StreaKHC/README.md`, `topograph/README.md` |
 | Licence exceptions and notices | `IK-AHC/LICENSE`, project README licence notices, file-level third-party notices where visible |
 
@@ -57,7 +57,7 @@ Major project README files were standardised toward this structure:
 | --- | --- |
 | `GANBLR` and `StreaKHC` README-level BSD wording conflicted with the confirmed repository-default model. | Replaced with `MIT License unless otherwise stated`. |
 | `IK-AHC` has a real project-level licence file. | Preserved as BSD 3-Clause and documented as a subproject-level exception. |
-| Included datasets, binaries, PDFs, model/preprocessing artifacts, and third-party resources must not be swept into the MIT code licence. | Documented in project README files and `HUMAN_REVIEW.md`. |
+| Included datasets, binaries, PDFs, model/preprocessing artifacts, and third-party resources must not be swept into the MIT code licence. | Documented in project README files and `CURATION_NOTES.md`. |
 
 ## Branch-name references
 
@@ -73,23 +73,23 @@ Major project README files were standardised toward this structure:
 | Root README | Covered with `assets/tulip-wordmark.png` |
 | Major project READMEs | Covered with `../assets/tulip-wordmark.png` |
 
-## HUMAN_REVIEW cleanup
+## Curation notes cleanup
 
-`HUMAN_REVIEW.md` was reorganised into:
+`CURATION_NOTES.md` was reorganised into:
 
 - Blocking before public release
-- Requires owner confirmation
+- Requires curator confirmation
 - Non-blocking documentation cleanup
 - Optional future enhancement
-- Resolved / owner-confirmed
+- Resolved / curator-confirmed
 
-## Remaining issues requiring owner confirmation
+## Remaining issues requiring curator confirmation
 
 - Non-code resources and artifacts if reused outside this repository: `CTR` PDF/sample workbook, `DLM` preprocessing artifacts, `GANBLR` Adult dataset files, `RFM` package/sample/binary components, and `StreaKHC` benchmark/sample datasets.
 - Dependency and file-level third-party notice review if `StreaKHC` or other subprojects are packaged for formal release.
 
 ## Recommended next actions
 
-- Keep project-specific citations current when owners publish updates.
-- Add missing project-level DOI/BibTeX metadata only when confirmed by project owners.
+- Keep project-specific citations current when maintainers publish updates.
+- Add missing project-level DOI/BibTeX metadata only when confirmed by project maintainers.
 - If a subproject is packaged for release, review non-code artifacts and file-level third-party notices before distribution.

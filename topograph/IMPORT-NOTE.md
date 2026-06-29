@@ -23,7 +23,7 @@ The source repository includes an MIT License in `LICENSE`, which has been prese
 Citation status:
 The source `README.md` includes a project citation for the TOPOGRAPH paper. No DOI, BibTeX entry, or separate citation file was present at import time.
 
-Human-review status:
+Curation status:
 No local datasets, pretrained model weights, or checkpoints were present in the imported source repository. The source `README.md` references external data resources; those resources were not copied into this repository and remain subject to their own source terms. Missing DOI/BibTeX citation metadata and dependency licence review may be handled as future enhancements if needed.
 
-The code was imported as a TULIP Lab subproject. The original project structure, attribution, citation information, and licence notices have been preserved where available. A small mechanical whitespace cleanup was applied to imported text/source files so the open-code repository validation passes; no code logic, experiments, algorithms, parameters, datasets, paths, or outputs were changed. If any licence, citation, dataset, model-weight, or third-party-resource status is unclear, it is recorded for human review in the open-code root `HUMAN_REVIEW.md`.
+The code was imported as a TULIP Lab subproject. The original project structure, attribution, citation information, and licence notices have been preserved where available. A small mechanical whitespace cleanup was applied to imported text/source files so the open-code repository validation passes; no code logic, experiments, algorithms, parameters, datasets, paths, or outputs were changed. If any licence, citation, dataset, model-weight, or third-party-resource status is unclear, it is recorded in the open-code root `CURATION_NOTES.md`.
