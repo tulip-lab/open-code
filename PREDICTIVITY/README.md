@@ -13,8 +13,8 @@
 | Date Updated |  2021-08-29 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/PREDICTIVITY|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 This package (PREDICTIVITY) is the algorithm for calculating tourism demand data predictivity. Please be aware that:
 

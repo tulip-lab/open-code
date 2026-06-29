@@ -13,8 +13,8 @@
 | Date Updated |  2022-04-16 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/IK-AHC|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 
 IK-AHC is a novel hierarchical clustering algorithm. It uses a data-dependent kernel called Isolation Kernel to measure the the similarity between clusters.

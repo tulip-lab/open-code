@@ -13,8 +13,8 @@
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/CTR|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 This package (CTR) implemented the algorithm to generate targeted positive/negative rules and contrast among multiple datasets.
 

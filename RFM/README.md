@@ -13,8 +13,8 @@
 | Date Updated |  2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
 | URL | https://github.com/tulip-lab/open-code/tree/master/RFM|
-| Publisher |[TULIP Lab](http://www.tulip.org.au/) |
-| Point of Contact |[A/Prof. Gang Li](https://github.com/tuliplab) |
+| Publisher |[TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
 
 This package (RFM) Programming library of fuzzy measure which provides various tools for handling fuzzy measures, calculating Shapley value and Interaction index,  Choquet Integrals, as well as fitting fuzzy measures to empirical data. 
 

@@ -2,9 +2,9 @@
 
 ---
 - Open code for research purposes. Please follow the licence and citation notes below and preserve required attribution and licence notices.
-- Point of Contact: [A/Prof. Gang Li](https://github.com/tuliplab) 
+- Point of Contact: [Prof. Gang Li](https://github.com/tuliplab) 
 
-Prepared by [TULIP Lab](http://www.tulip.org.au), Australia
+Prepared by [TULIP Lab](http://www.tulip.academy), Australia
 
 - 2022 maintainers: [Xin Han](https://github.com/xhan97)
 - 2021 maintainers: [Chris Zhang](https://github.com/chriszhangpodo) 
