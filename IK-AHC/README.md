@@ -3,33 +3,58 @@
 </p>
 
 # IK-AHC
----
 
 | Field | Value |
 | --- | --- |
-| Title | IK-AHC  |
+| Title | IK-AHC |
 | Type | Source Code |
 | Language | Matlab |
-| License | BSD license  |
+| Licence | BSD 3-Clause License |
 | Status | Research Code |
 | Update Frequency | NO |
-| Date Published | 2022-04-16  |
-| Date Updated |  2022-04-16 |
+| Date Published | 2022-04-16 |
+| Date Updated | 2022-04-16 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/main/IK-AHC|
-| Publisher |[TULIP Lab](http://www.tulip.academy/) |
-| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
+| URL | https://github.com/tulip-lab/open-code/tree/main/IK-AHC |
+| Publisher | [TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact | [Prof. Gang Li](https://github.com/tuliplab) |
 
+## Overview
 
-IK-AHC is a novel hierarchical clustering algorithm. It uses a data-dependent kernel called Isolation Kernel to measure the the similarity between clusters.
+IK-AHC is a hierarchical clustering algorithm. It uses a data-dependent kernel called Isolation Kernel to measure similarity between clusters.
 
----
+## Repository location
+
+The project is maintained in `IK-AHC/` in the TULIP Lab Open Code Repository:
+https://github.com/tulip-lab/open-code/tree/main/IK-AHC
+
+## Installation or environment
+
+- Matlab R2021a.
+
+Set up the Matlab path:
+
+```matlab
+run setup.m
+```
+
+## Usage
+
+Run the evaluation script:
+
+```matlab
+run eva/eva_khc.m
+```
+
+## Data
+
+No standalone dataset is documented in this subproject README. Datasets used with the code should be checked for their own licence and provenance terms.
+
 ## Citation
----
 
-If you use it for a scientific publication, please include a reference to this paper.
+If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Xin Han, Ye Zhu, Kai Ming Ting, and Gang Li, [The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms](https://arxiv.org/pdf/2010.05473.pdf), <i>arXiv e-prints</i>, 2020.
+> Xin Han, Ye Zhu, Kai Ming Ting, and Gang Li, [*The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms*](https://arxiv.org/pdf/2010.05473.pdf), *arXiv e-prints*, 2020.
 
 `BibTeX` information:
 
@@ -44,45 +69,11 @@ If you use it for a scientific publication, please include a reference to this p
 }
 ```
 
-<!-- The related dataset for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
+## Licence
 
-* [`IK-AHC2022`](https://github.com/tulip-lab/open-data/tree/main/Macau2018): Tourism Demand Forcasting Data for Macau from January 2011 to August 2018 -->
+This subproject includes its own [BSD 3-Clause License](LICENSE), which takes precedence for the subproject source code. Documentation, README text, and citation metadata are licensed under CC BY 4.0 unless otherwise stated.
 
----
-###  Requirements
----
+## Notes
 
-* Matlab R2021a
-
----
-### Setup
----
-
-Add the preject permanently to the Matlab path:
-
-```matlab
-  run setup.m
-```
-
----
-### Run Evaluation
----
-
-Run test on  all real data set:
-
-```matlab
-  run eva/eva_khc.m
-```
-
----
-### Notes
----
-
-- Most of the program running time is used to calculate dendrogram purity.
-- You'll need firstly run the setup script before run the evaluation script.
-
----
-### License
----
-
-BSD license
+- Most of the running time is used to calculate dendrogram purity.
+- Run the setup script before running the evaluation script.

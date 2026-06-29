@@ -8,49 +8,63 @@ Audit date: 2026-06-29
 | --- | --- |
 | Root documentation | `README.md`, `CITATION.md`, `LICENSE`, `LICENSE-DOCS.md`, `HUMAN_REVIEW.md` |
 | Major project READMEs | `Adam/README.md`, `CTR/README.md`, `DLM/README.md`, `GANBLR/README.md`, `GP-DLM/README.md`, `IK-AHC/README.md`, `PREDICTIVITY/README.md`, `RFM/README.md`, `STL-DADLM/README.md`, `StreaKHC/README.md`, `topograph/README.md` |
-| Licence exceptions | `IK-AHC/LICENSE`, project-level README licence notices |
+| Licence exceptions and notices | `IK-AHC/LICENSE`, project README licence notices, file-level third-party notices where visible |
 
-## Root README issues found
+## README templates applied
+
+Major project README files were standardised toward this structure:
+
+- Banner
+- Project title
+- Metadata table
+- `Overview`
+- `Repository location`
+- `Installation or environment`
+- `Usage`
+- `Data`
+- `Citation`
+- `Licence`
+- `Notes`
+
+## Project README files updated
+
+| File | Summary |
+| --- | --- |
+| `Adam/README.md` | Added standard sections, repository location, data note, fenced BibTeX, licence, and notes. |
+| `CTR/README.md` | Added standard sections, manual/sample data notes, fenced BibTeX, licence, and notes. |
+| `DLM/README.md` | Added standard sections, related data and preprocessing-artifact notes, fenced BibTeX, licence, and notes. |
+| `GP-DLM/README.md` | Added standard sections, related data note, fenced BibTeX, licence, and notes. |
+| `STL-DADLM/README.md` | Added standard sections, related data note, fenced BibTeX, licence, and notes. |
+| `PREDICTIVITY/README.md` | Added standard sections, data note, fenced BibTeX, licence, and notes. |
+| `GANBLR/README.md` | Added standard sections, local dataset note, fenced BibTeX, and confirmed MIT-default licence wording. |
+| `IK-AHC/README.md` | Added standard sections and preserved `IK-AHC/LICENSE` as the BSD 3-Clause project-level licence. |
+| `StreaKHC/README.md` | Added standard sections, benchmark-data and file-level notice notes, fenced BibTeX, and confirmed MIT-default licence wording. |
+| `RFM/README.md` | Added standard sections, package/sample/binary notes, fenced BibTeX, licence, and references. |
+| `topograph/README.md` | Added standard sections, import/source repository note, external data notes, licence, and citation-metadata note. |
+
+## Citation issues fixed
 
 | Issue | Status |
 | --- | --- |
-| Banner placement and README section order needed alignment with the open-data repository. | Fixed |
-| Repository scope was implicit rather than a named section. | Fixed |
-| Human-review and docs-audit links were missing. | Fixed |
+| README citation sections had inconsistent surrounding structure. | Standardised to `## Citation` in the project template. |
+| Indented BibTeX blocks were inconsistent with the preferred fenced form. | Converted known BibTeX entries to fenced `bibtex` blocks. |
+| BibTeX page ranges and month fields needed normalisation in several entries. | Normalised where metadata was already documented. |
+| Missing or incomplete citation metadata must not be invented. | Preserved as notes or optional future enhancement. |
 
-## Subdirectory README issues found
-
-| Issue | Status |
-| --- | --- |
-| Major project README files did not include the standard TULIP Lab banner. | Fixed with `../assets/tulip-wordmark.png` |
-| Some project metadata tables had blank licence cells. | Filled with `MIT License unless otherwise stated` where no project-specific exception was present |
-| BSD project notices were present for `IK-AHC`, `GANBLR`, and `StreaKHC`. | Preserved; exact BSD variant for `GANBLR` and `StreaKHC` requires owner confirmation |
-
-## Citation inconsistencies found
+## Licence wording issues fixed
 
 | Issue | Status |
 | --- | --- |
-| Legacy BibTeX spelling was inconsistent. | Standardised to `BibTeX` |
-| Citation headings used plural `Citations` in several files. | Standardised to `## Citation` |
-| Some BibTeX DOI fields included `https://doi.org/` instead of DOI values. | Fixed where the DOI was already documented |
-| Some BibTeX month and page-range fields used non-preferred formatting. | Fixed where metadata was already documented |
-| `topograph` has no DOI, BibTeX entry, or separate citation file. | Recorded as optional future enhancement in `HUMAN_REVIEW.md` |
+| `GANBLR` and `StreaKHC` README-level BSD wording conflicted with the confirmed repository-default model. | Replaced with `MIT License unless otherwise stated`. |
+| `IK-AHC` has a real project-level licence file. | Preserved as BSD 3-Clause and documented as a subproject-level exception. |
+| Included datasets, binaries, PDFs, model/preprocessing artifacts, and third-party resources must not be swept into the MIT code licence. | Documented in project README files and `HUMAN_REVIEW.md`. |
 
-## Licence inconsistencies found
+## Branch-name references
 
 | Issue | Status |
 | --- | --- |
-| Blank licence cells in MIT-default project READMEs. | Fixed |
-| Project-level BSD notices must take precedence over root MIT default. | Preserved and documented |
-| Non-code assets remain outside repository-level MIT coverage. | Preserved in `HUMAN_REVIEW.md` |
-
-## Branch-name references found
-
-| Issue | Status |
-| --- | --- |
-| Documentation links referenced `tree/master`. | Replaced with `tree/main` where they referred to current repository URLs |
-| No local or remote `master` branch exists. | Confirmed |
-| `origin/HEAD` points to `origin/develop`, not `origin/main`. | Recorded for repository-admin confirmation in `HUMAN_REVIEW.md` |
+| Documentation should refer to `main`, not `master`, for current GitHub URLs and branch references. | Checked; no current README `master` links remain. |
+| GitHub remote default branch should be `main`. | Confirmed by `git remote show origin`; no branch migration issue remains. |
 
 ## Banner coverage
 
@@ -59,23 +73,23 @@ Audit date: 2026-06-29
 | Root README | Covered with `assets/tulip-wordmark.png` |
 | Major project READMEs | Covered with `../assets/tulip-wordmark.png` |
 
-## Changes applied
+## HUMAN_REVIEW cleanup
 
-- Added standard README banner placement and repository scope section.
-- Added standard banner to major project READMEs.
-- Standardised branch-name links from `master` to `main`.
-- Standardised citation headings and `BibTeX` spelling.
-- Filled missing MIT-default licence cells.
-- Created this audit report and updated `HUMAN_REVIEW.md`.
+`HUMAN_REVIEW.md` was reorganised into:
 
-## Issues requiring human confirmation
+- Blocking before public release
+- Requires owner confirmation
+- Non-blocking documentation cleanup
+- Optional future enhancement
+- Resolved / owner-confirmed
 
-- Confirm exact BSD licence variants for `GANBLR` and `StreaKHC`.
-- Confirm whether `open-code` GitHub default branch should be migrated from `develop` to `main`.
-- Confirm licence/provenance for retained non-code assets if they are intended for public reuse.
+## Remaining issues requiring owner confirmation
+
+- Non-code resources and artifacts if reused outside this repository: `CTR` PDF/sample workbook, `DLM` preprocessing artifacts, `GANBLR` Adult dataset files, `RFM` package/sample/binary components, and `StreaKHC` benchmark/sample datasets.
+- Dependency and file-level third-party notice review if `StreaKHC` or other subprojects are packaged for formal release.
 
 ## Recommended next actions
 
-- Repository administrator confirms default branch policy and branch protection rules.
-- Owners confirm exact BSD licence variants for subprojects that state BSD without a licence file.
-- Add project-level DOI/BibTeX metadata only when confirmed by the project owner.
+- Keep project-specific citations current when owners publish updates.
+- Add missing project-level DOI/BibTeX metadata only when confirmed by project owners.
+- If a subproject is packaged for release, review non-code artifacts and file-level third-party notices before distribution.

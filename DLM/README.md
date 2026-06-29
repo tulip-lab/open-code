@@ -3,78 +3,81 @@
 </p>
 
 # DLM
----
 
 | Field | Value |
 | --- | --- |
 | Title | DLM |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
-| Date Published | 2019-01-31  |
-| Date Updated |  2019-01-31 |
+| Date Published | 2019-01-31 |
+| Date Updated | 2019-01-31 |
 | Portal | https://github.com/tulip-lab/open-code |
-| URL | https://github.com/tulip-lab/open-code/tree/main/DLM|
-| Publisher |[TULIP Lab](http://www.tulip.academy/) |
-| Point of Contact |[Prof. Gang Li](https://github.com/tuliplab) |
+| URL | https://github.com/tulip-lab/open-code/tree/main/DLM |
+| Publisher | [TULIP Lab](http://www.tulip.academy/) |
+| Point of Contact | [Prof. Gang Li](https://github.com/tuliplab) |
 
-This package (DLM) is the deep learning algorithm for tourism demand forecasting. Please be aware that:
+## Overview
 
-* The training of DLM needs extra efforts based on specific data set, and direct running of the provided code *DOES NOT* always generate the promised performance.
-* For the training of the model on the data set, please spend your own patient time and the code publisher will *NOT* provide assistance on this issue.
+This package contains the DLM deep learning algorithm for tourism demand forecasting. The training of DLM needs extra effort for each specific dataset, and direct running of the provided code does not always generate the reported performance.
 
----
+## Repository location
+
+The project is maintained in `DLM/` in the TULIP Lab Open Code Repository:
+https://github.com/tulip-lab/open-code/tree/main/DLM
+
+## Installation or environment
+
+- Python 3.6.
+- Keras.
+- Tensorflow.
+
+## Usage
+
+```bash
+edit Setting.py
+python Preprocess.py
+python Eval.py
+```
+
+The preprocessing stage uses a window-based input with window size 12.
+
+## Data
+
+The related dataset for the paper is hosted in the TULIP Lab Open Data Repository:
+
+* [`Macau2018`](https://github.com/tulip-lab/open-data/tree/main/Macau2018): Tourism Demand Forecasting Data for Macau from January 2011 to August 2018.
+
+The project also includes local preprocessing artifacts under `preprocess/`. These artifacts are not automatically covered by the MIT code licence and require their own provenance review if reused outside this repository.
+
 ## Citation
----
 
-If you use it for a scientific publication, please include a reference to this paper. 
+If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Rob Law, Gang Li, Davis Fong, Xin Han (2019). [Tourism Demand Forecasting: A Deep Learning Approach](https://doi.org/10.1016/j.annals.2019.01.014). **Annals of Tourism Research**, Vol 75, March 2019, Page 410-423
+> Rob Law, Gang Li, Davis Fong, Xin Han (2019). [*Tourism Demand Forecasting: A Deep Learning Approach*](https://doi.org/10.1016/j.annals.2019.01.014). *Annals of Tourism Research*, Vol 75, March 2019, Page 410-423.
 
 `BibTeX` information:
 
-    @article{LLFHDeep2019,
-    title = {Tourism Demand Forecasting: A Deep Learning Approach},
-    volume = {75},
-    doi = {10.1016/j.annals.2019.01.014},
-    journal = {Annals of Tourism Research},
-    author = {Law, Rob and Li, Gang and Fong, Davis Ka Chio and Han, Xin},
-    month = mar,
-    year = {2019},
-    keywords = {Big data analytics, Deep Learning, Search query data,Tourism Demand Forecast},
-    pages = {410--423},
-    }
-
-The related dataset for above paper can be found at [TULIP Lab Open Data Repository](https://github.com/tulip-lab/open-data):
-
-* [`Macau2018`](https://github.com/tulip-lab/open-data/tree/main/Macau2018): Tourism Demand Forcasting Data for Macau from January 2011 to August 2018
-
-
----
-###  Requirements
----
-
-* Python 3.6
-* Keras
-* Tensorflow
-
-
----
-### Preprocessing
----
-
-* Window-based input (window size is 12)
-
-
----
-## Running
----
-
+```bibtex
+@article{LLFHDeep2019,
+  title = {Tourism Demand Forecasting: A Deep Learning Approach},
+  volume = {75},
+  doi = {10.1016/j.annals.2019.01.014},
+  journal = {Annals of Tourism Research},
+  author = {Law, Rob and Li, Gang and Fong, Davis Ka Chio and Han, Xin},
+  month = mar,
+  year = {2019},
+  keywords = {Big data analytics, Deep Learning, Search query data, Tourism Demand Forecast},
+  pages = {410--423}
+}
 ```
-edit Setting.py         % set paramaters
-python Preprocess.py    % data preprocess
-python Eval.py          % model evaluation
 
-```
+## Licence
+
+Source code is licensed under the MIT License unless otherwise stated. Documentation, README text, and citation metadata are licensed under CC BY 4.0 unless otherwise stated. Datasets and preprocessing/model artifacts are governed by their own provenance and licence terms.
+
+## Notes
+
+The code publisher does not provide support for dataset-specific model training.

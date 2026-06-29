@@ -1,42 +1,37 @@
 # Human Review
 
-The following licence, citation, provenance, and attribution notes reflect the current owner confirmation and remaining future-review items. No code logic or data values were changed for this documentation update.
+The following licence, citation, provenance, and attribution notes reflect the current owner confirmation and remaining follow-up items. No code logic or data values were changed for this documentation update.
 
-## Repository-level licence
+## Blocking before public release
 
-- Resolved by owner confirmation: the previous root `LICENSE` file contained the GNU General Public License v3.0 text. It has been intentionally replaced with the MIT License as the root default code licence.
-- Source code is licensed under MIT unless otherwise stated. Project-level licence files, subproject README licence notices, and third-party notices take precedence for the relevant subproject or file.
-- Existing BSD notices must be preserved where present, including notices in or for `IK-AHC`, `GANBLR`, and `StreaKHC`.
-- Requires owner confirmation: `GANBLR` and `StreaKHC` README files state "BSD license", but no separate licence file was found for those subprojects during this audit. Preserve the notices until the exact BSD variant is confirmed.
-- Documentation and citation metadata are licensed under CC BY 4.0 unless otherwise stated.
+- None identified for this documentation-only standardisation pass.
 
-## Citation metadata
+## Requires owner confirmation
 
-- Optional future enhancement: a repository-level DOI, release version, complete repository-level author list, or `CITATION.cff` may be added later if desired. This is not blocking unless a specific paper-code release requires exact citation metadata.
-- Project-specific paper citations and DOI links appear in individual project READMEs and should be preserved.
+- `CTR/CTR-manual.pdf` and `CTR/code/sample.xlsx`: confirm publisher, author, redistribution, and sample-data terms if these non-code resources are reused outside this repository.
+- `DLM/preprocess/reframed.pk` and `DLM/preprocess/scaler.pk`: confirm provenance and licence if these preprocessing artifacts are reused outside this repository.
+- `GANBLR/data/original/adult.data`, `GANBLR/data/original/adult.names`, and `GANBLR/data/discretized/discretized_adult.csv`: confirm original source terms and attribution requirements if these dataset files are reused outside this repository.
+- `RFM` sample data, package archives, compiled binaries, and third-party-derived components: confirm licence and attribution requirements for `fmtools`, `lpSolve`, sample data, and packaged binaries if the package is prepared for a formal release.
+- `StreaKHC/data/raw` and `StreaKHC/data/runned`: confirm dataset source, provenance, and redistribution terms for the included benchmark/sample datasets if they are reused outside this repository.
 
-## Included non-code assets
+## Non-blocking documentation cleanup
 
-- Included datasets, model artifacts, binaries, checkpoints, and PDFs are not automatically covered by the MIT code licence. They require their own licence/provenance notes if retained for public reuse.
-- `CTR/CTR-manual.pdf` is included in the code repository. Future review: confirm its publisher, author, and redistribution licence if intended for public reuse.
-- `DLM/preprocess/reframed.pk` and `DLM/preprocess/scaler.pk` are included model/preprocessing artifacts. Future review: confirm their provenance and licence if intended for public reuse.
-- `GANBLR/data/original/adult.data`, `GANBLR/data/original/adult.names`, and `GANBLR/data/discretized/discretized_adult.csv` are included dataset files. Future review: confirm original source terms and attribution requirements if intended for public reuse.
-- `RFM` includes sample data, package archives, compiled binaries, and third-party-derived components. Future review: confirm the licences and attribution requirements for `fmtools`, `lpSolve`, sample data, and packaged binaries if intended for public reuse.
-- `StreaKHC/data/raw` and `StreaKHC/data/runned` include benchmark/sample datasets. Future review: confirm dataset source, provenance, and redistribution terms if intended for public reuse.
+- `StreaKHC` contains source files with file-level third-party licence notices. These notices should be preserved and reviewed if the subproject is packaged, but they are not a README-level blocker.
+- The imported `topograph` source repository did not include requirements or environment files. Dependency documentation can be added later if the subproject is packaged.
 
-## topograph import
+## Optional future enhancement
 
-- `topograph` was imported from https://github.com/tulip-lab/topograph into `topograph/`. The source MIT `LICENSE`, README, notebook, and source files were preserved.
-- The source README includes a TOPOGRAPH paper citation. No DOI, BibTeX entry, or separate citation file was present at import time; complete citation metadata can be added later if needed.
-- The source README references external data resources for Synthetic Data, Knot, and IPC. These external resources were not copied into open-code and remain subject to their own source terms.
-- No local datasets, pretrained model weights, model checkpoints, or large binary artifacts were present in the imported source repository.
-- The source repository did not include requirements or environment files. Dependency licence review can be handled later if this subproject is packaged or prepared for a formal release.
+- Add a repository-level DOI, release version, complete repository-level author list, or `CITATION.cff` if desired.
+- Add project-level DOI or BibTeX metadata only when confirmed by the relevant project owner.
+- Add complete TOPOGRAPH DOI or BibTeX metadata when confirmed.
 
-## Branch naming
+## Resolved / owner-confirmed
 
-- No local or remote `master` branch was found during this audit.
-- Requires repository-admin confirmation: `origin/HEAD` for `open-code` currently points to `origin/develop`, while the confirmed default branch name decision is `main`. Do not delete or rename branches automatically. Recommended migration procedure: create/push `main` if needed, set the GitHub default branch to `main`, update branch protection rules, then retire old default references only after owner confirmation.
-
-## Papers and external resources
-
-- Published papers, arXiv preprints, publisher PDFs, external datasets, pretrained model weights, third-party checkpoints, and external resources are not relicensed by this repository. Preserve file-level or third-party notices and confirm any exception before redistribution.
+- The previous root GPL text was intentionally replaced with the MIT License as the root default code licence.
+- Source code is licensed under MIT unless otherwise stated. Project-level licence files, file-level notices, and third-party notices take precedence where present.
+- Documentation, README text, tutorial notes, and citation metadata are licensed under CC BY 4.0 unless otherwise stated.
+- `GANBLR` and `StreaKHC` README-level licence wording is confirmed as MIT License unless otherwise stated, consistent with the repository default.
+- `IK-AHC` keeps its project-level BSD 3-Clause licence in `IK-AHC/LICENSE`; that subproject-level licence takes precedence for `IK-AHC`.
+- GitHub remote default branch is confirmed as `main`; no `master` branch migration issue remains in this audit.
+- `topograph` was imported from https://github.com/tulip-lab/topograph into `topograph/`, with source README, notebook, source files, import note, and MIT licence preserved.
+- Published papers, arXiv preprints, publisher PDFs, external datasets, pretrained model weights, third-party checkpoints, and external resources are not relicensed by this repository.
