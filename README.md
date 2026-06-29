@@ -34,7 +34,7 @@ This repository is for research software, examples, notebooks, and code document
 | IK-AHC | [`IK-AHC/`](IK-AHC) | Isolation Kernel agglomerative hierarchical clustering code for [*The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms*](https://arxiv.org/pdf/2010.05473.pdf), *arXiv e-prints*, 2020. |
 | GANBLR | [`GANBLR/`](GANBLR) | Tabular data generation code for [*GANBLR: A Tabular Data Generation Model*](https://ieeexplore.ieee.org/abstract/document/9679177), *IEEE ICDM*, 2021. |
 | StreaKHC | [`StreaKHC/`](StreaKHC) | Streaming hierarchical clustering based on point-set kernel, published in *The 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22)*, 2022. |
-| topograph | [`topograph/`](topograph) | TULIP Lab TOPOGRAPH project, imported from https://github.com/tulip-lab/topograph. |
+| Topograph | [`topograph/`](Topograph) | TULIP Lab TOPOGRAPH project, imported from https://github.com/tulip-lab/topograph. |
 
 ## Related data
 
