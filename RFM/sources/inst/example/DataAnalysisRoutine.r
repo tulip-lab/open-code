@@ -1,10 +1,10 @@
-# To cite package ‘Rfmtool’ in publications use:
+# To cite package ï¿½Rfmtoolï¿½ in publications use:
 # 	"Huy Quan Vu, Gleb Beliakov and Gang Li (2012). Rfmtool. R package version 1.0. 
-#       	http://www.tulip.org.au/resources/rfmtool"
+#       	http://www.tulip.academy/resources/rfmtool"
 
 # This package is submitted for publication with a book chapter.
 # 	"Huy Quan Vu, Gleb Beliakov, Gang Li. A Choquet Ingtegral Toolbox and its Application 
-#	 in Customer’s Preference Analysis. Book Chapter in Data Mining Applications with R. Elsevier, 2013."
+#	 in Customerï¿½s Preference Analysis. Book Chapter in Data Mining Applications with R. Elsevier, 2013."
 
 # For more background knowledge about fuzzy measure and Choquet integral. User can refer to the following book:
 #       " Beliakov, G., Pradera, A., and Calvo, T. (2007). Aggregation Functions: A Guide for Practitioners. 

@@ -1,8 +1,8 @@
 # Rfmtool Package v1.0
 
-# To cite package ‘Rfmtool’ in publications use:
+# To cite package ï¿½Rfmtoolï¿½ in publications use:
 # 	"Huy Quan Vu, Gleb Beliakov and Gang Li (2012). Rfmtool. R package version 1.0. 
-#       	http://www.tulip.org.au/resources/rfmtool"
+#       	http://www.tulip.academy/resources/rfmtool"
 
 # This package is submitted for publication with a book chapter.
 # 	"Huy Quan Vu, Gleb Beliakov and Gang Li. Data Mining Application With R.
