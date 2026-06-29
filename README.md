@@ -6,6 +6,7 @@
 
 Prepared by [TULIP Lab](http://www.tulip.academy), Australia
 
+- 2026 maintainers: [Zonghao Chen](https://github.com/xhan97)
 - 2022 maintainers: [Xin Han](https://github.com/xhan97)
 - 2021 maintainers: [Chris Zhang](https://github.com/chriszhangpodo) 
 - 2020 maintainers: [Chris Zhang](https://github.com/chriszhangpodo) 
