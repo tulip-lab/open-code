@@ -9,7 +9,7 @@
 | Title | STL-DADLM |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2020-03-20 |
@@ -50,7 +50,7 @@ Datasets used with this code are governed by their own licence and provenance no
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Yishuo Zhang, Gang Li, Birgit Muskat, Rob Law (2020). [Tourism Demand Forecasting: A Decomposed Deep Learning Approach](https://doi.org/10.1177/0047287520919522). **Journal of Travel Research**, June 2020.
+> Yishuo Zhang, Gang Li, Birgit Muskat, Rob Law (2020). [*Tourism Demand Forecasting: A Decomposed Deep Learning Approach*](https://doi.org/10.1177/0047287520919522). *Journal of Travel Research*, June 2020.
 
 `BibTeX` information:
 

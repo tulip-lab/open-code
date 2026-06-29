@@ -9,7 +9,7 @@
 | Title | TOPOGRAPH |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2025-11 |
@@ -53,7 +53,7 @@ These external resources remain governed by their own source terms.
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-- Zonghao Chen, Yuncheng Jiang, Gang Li. TOPOGRAPH: Topology-Preserving Graph Reduction with Adaptive Structure for Persistent Homology. AAAI Conference on Artificial Intelligence, 2026.
+> Zonghao Chen, Yuncheng Jiang, Gang Li. *TOPOGRAPH: Topology-Preserving Graph Reduction with Adaptive Structure for Persistent Homology*. *AAAI Conference on Artificial Intelligence*, 2026.
 
 No DOI, BibTeX entry, or separate citation file is currently documented for this subproject.
 

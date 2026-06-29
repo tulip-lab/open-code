@@ -9,7 +9,7 @@
 | Title | GANBLR |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2022-04-30 |
@@ -47,7 +47,7 @@ The project includes local Adult dataset files under `data/original/` and a disc
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Yishuo Zhang, Nayyar Zaidi, Jiahui Zhou, and Gang Li, [GANBLR: A Tabular Data Generation Model](https://ieeexplore.ieee.org/abstract/document/9679177), <i>IEEE</i>, 2021.
+> Yishuo Zhang, Nayyar Zaidi, Jiahui Zhou, and Gang Li, [*GANBLR: A Tabular Data Generation Model*](https://ieeexplore.ieee.org/abstract/document/9679177), *IEEE ICDM*, 2021.
 
 `BibTeX` information:
 

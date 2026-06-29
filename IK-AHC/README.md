@@ -9,7 +9,7 @@
 | Title | IK-AHC |
 | Type | Source Code |
 | Language | Matlab |
-| License | BSD 3-Clause License |
+| Licence | BSD 3-Clause License |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2022-04-16 |
@@ -54,7 +54,7 @@ No standalone dataset is documented in this subproject README. Datasets used wit
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Xin Han, Ye Zhu, Kai Ming Ting, and Gang Li, [The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms](https://arxiv.org/pdf/2010.05473.pdf), <i>arXiv e-prints</i>, 2020.
+> Xin Han, Ye Zhu, Kai Ming Ting, and Gang Li, [*The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms*](https://arxiv.org/pdf/2010.05473.pdf), *arXiv e-prints*, 2020.
 
 `BibTeX` information:
 

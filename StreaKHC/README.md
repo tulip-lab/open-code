@@ -9,7 +9,7 @@
 | Title | StreaKHC |
 | Type | Source Code |
 | Language | Python, Shell |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2022-05-20 |
@@ -72,7 +72,7 @@ The project includes benchmark/sample datasets under `data/raw/` and `data/runne
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Xin Han, Ye Zhu, Kai Ming Ting, De-Chuan Zhan and Gang Li. *Streaming Hierarchical Clustering based on Point-Set Kernel.* In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22). 2022. https://doi.org/10.1145/3534678.3539323
+> Xin Han, Ye Zhu, Kai Ming Ting, De-Chuan Zhan and Gang Li. [*Streaming Hierarchical Clustering based on Point-Set Kernel*](https://doi.org/10.1145/3534678.3539323). *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '22)*, 2022.
 
 `BibTeX` information:
 

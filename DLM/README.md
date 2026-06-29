@@ -9,7 +9,7 @@
 | Title | DLM |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2019-01-31 |
@@ -56,7 +56,7 @@ The project also includes local preprocessing artifacts under `preprocess/`. The
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Rob Law, Gang Li, Davis Fong, Xin Han (2019). [Tourism Demand Forecasting: A Deep Learning Approach](https://doi.org/10.1016/j.annals.2019.01.014). **Annals of Tourism Research**, Vol 75, March 2019, Page 410-423.
+> Rob Law, Gang Li, Davis Fong, Xin Han (2019). [*Tourism Demand Forecasting: A Deep Learning Approach*](https://doi.org/10.1016/j.annals.2019.01.014). *Annals of Tourism Research*, Vol 75, March 2019, Page 410-423.
 
 `BibTeX` information:
 

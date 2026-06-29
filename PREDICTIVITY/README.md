@@ -9,7 +9,7 @@
 | Title | PREDICTIVITY |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2021-04-27 |
@@ -44,7 +44,7 @@ No standalone dataset is documented in this subproject README. Datasets used wit
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Yishuo Zhang, Gang Li, Birgit Muskat, Huy Quan Vu, Rob Law (2021). [Predictivity of tourism demand data](https://doi.org/10.1016/j.annals.2021.103234). **Annals of Tourism Research**.
+> Yishuo Zhang, Gang Li, Birgit Muskat, Huy Quan Vu, Rob Law (2021). [*Predictivity of tourism demand data*](https://doi.org/10.1016/j.annals.2021.103234). *Annals of Tourism Research*.
 
 `BibTeX` information:
 

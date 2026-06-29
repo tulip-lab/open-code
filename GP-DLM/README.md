@@ -9,7 +9,7 @@
 | Title | GP-DLM |
 | Type | Source Code |
 | Language | Python |
-| License | MIT License unless otherwise stated |
+| Licence | MIT License unless otherwise stated |
 | Status | Research Code |
 | Update Frequency | NO |
 | Date Published | 2020-02-26 |
@@ -52,7 +52,7 @@ Datasets used with this code are governed by their own licence and provenance no
 
 If you use this project for a scientific publication, please include a reference to the following paper.
 
-* Yishuo Zhang, Gang Li, Birgit Muskat, Rob Law and Yating Yang (2020). [Group Pooling For Deep Tourism Demand Forecasting](https://doi.org/10.1016/j.annals.2020.102899). **Annals of Tourism Research**, Vol 82, May 2020.
+> Yishuo Zhang, Gang Li, Birgit Muskat, Rob Law and Yating Yang (2020). [*Group Pooling For Deep Tourism Demand Forecasting*](https://doi.org/10.1016/j.annals.2020.102899). *Annals of Tourism Research*, Vol 82, May 2020.
 
 `BibTeX` information:
 
